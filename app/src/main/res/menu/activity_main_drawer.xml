@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/music"
+            app:itemTextColor="#fff"
+            android:title="Music" />
+        <item
+            android:id="@+id/nav_gallery"
+            app:itemTextColor="#fff"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:titleCondensed="#fff"
+            app:itemTextColor="#fff"
+            android:title="Help" />
+
+    </group>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:title="instagram"
+                android:id="@+id/nav_insa"
+                android:titleCondensed="#fff"
+                android:icon="@drawable/si"
+                 />
+            <item
+                android:id="@+id/nav_face"
+                android:icon="@drawable/sf"
+                app:itemTextColor="#fff"
+                android:title="facebook" />
+
+            <item
+                app:itemTextColor="#fff"
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/st"
+                android:title="twitter" />
+        </menu>
+    </item>
+
+</menu>
